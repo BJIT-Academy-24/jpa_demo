@@ -65,4 +65,15 @@ public class Student {
     public void setContactNo(String contactNo) {
         this.contactNo = contactNo;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", contactNo='" + contactNo + '\'' +
+                ", address=" + address +
+                '}';
+    }
 }
